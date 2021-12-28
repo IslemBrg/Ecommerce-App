@@ -3,7 +3,7 @@ import Logo from '../img/logo.png';
 
 export default function HomePage() {
     return (
-        <div>
+        <div styles="padding:200vw">
             <img src={Logo} styles={padding="200vw"}/>
         </div>
     )

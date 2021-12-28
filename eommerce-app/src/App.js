@@ -7,7 +7,7 @@ import HomePage from './components/HomePage'
 function App() {
   return (
     <div className="App">
-      <h1>wri9a</h1>
+      <HomePage></HomePage>
     </div>
   );
 }
