@@ -1,6 +1,6 @@
 import { Button } from '@mui/material';
-import Logo from '../img/logo.png';
-import '../home.css';
+import Logo from '../img/logoYell.png';
+import '../CSS/home.css';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -18,6 +18,7 @@ export default function HomePage() {
             <Button variant="contained">Sign in</Button>
             <Button variant="contained">Sign up</Button>
             </div>
+            
 
         </div>
     )

@@ -4,7 +4,9 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image:url("img/bg-Img.png");
+    background-image:url("../img/bg-Img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .logo{
     margin-top: 10vh;
@@ -12,12 +14,12 @@
 
 .home Button {
     margin: 1rem;
-    background-color: orange;
+    background-color: rgb(255, 220, 0);
     color: #181818;
 }
 
 .home Button:hover {
     margin: 1rem;
     background-color: #181818;
-    color: orange;
+    color: rgb(255, 220, 0);
 }
