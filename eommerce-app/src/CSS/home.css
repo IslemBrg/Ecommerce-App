@@ -25,3 +25,7 @@
     background-color: #181818;
     color: var(--primary);
 }
+
+.TextField {
+    color: var(--primary)!important
+}
