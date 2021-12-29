@@ -1,5 +1,4 @@
-
-.home {
+.memberbg {
     --primary : rgba(255, 220, 0);
     --rgbatest : rgba(95, 95, 95, 0.068);
     display: flex;
@@ -10,25 +9,4 @@
     background-image:url("../img/bg-Img.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-.logo{
-    margin-top: 10vh;
-}
-
-.home Button {
-    background-color: var(--primary);
-    color: #181818;
-}
-
-.home Button:hover {
-    background-color: #181818;
-    color: var(--primary);
-}
-
-.TextField {
-    color: var(--primary)!important
-}
-
-.userToolBox {
-    border-right: #181818;
 }

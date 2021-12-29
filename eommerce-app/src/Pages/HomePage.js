@@ -12,15 +12,17 @@ export default function HomePage() {
         document.title = "Wri9a"
      }, []);
 
-     
+
     return (
         <div className="home">
             <div variant="outlined" className="logo">
             <img src={Logo} width="60%"/>
             </div>
             <div>
-            <Link href='/signin' color="inherit" underline="none"><Button variant="contained" styles="margin:1rem">Sign in</Button></Link>
-                <Link href='/signup' color="inherit" underline="none"><Button variant="contained" styles="margin:1rem" >Sign up</Button></Link>
+                <br/><br/>
+            <Link href='/signin' color="inherit" underline="none"><Button variant="contained" >     <b>Sign in</b>     </Button></Link>
+                                
+                <Link href='/signup' color="inherit" underline="none"><Button variant="contained">     <b>Sign up</b>     </Button></Link>
             </div>
             
 
