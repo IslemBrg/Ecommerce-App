@@ -12,8 +12,8 @@ export default function HomePage() {
             <img src={Logo} width="60%"/>
             </div>
             <div>
-            <Link href='/signin' color="inherit" underline="none"><Button variant="contained">Sign in</Button></Link>
-                <Link href='/signup' color="inherit" underline="none"><Button variant="contained" >Sign up</Button></Link>
+            <Link href='/signin' color="inherit" underline="none"><Button variant="contained" styles="margin:1rem">Sign in</Button></Link>
+                <Link href='/signup' color="inherit" underline="none"><Button variant="contained" styles="margin:1rem" >Sign up</Button></Link>
             </div>
             
 
