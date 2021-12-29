@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useEffect } from 'react';
 
 function Copyright(props) {
   return (
@@ -29,6 +30,12 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignIn() {
+
+  useEffect(()=>{
+    document.title="Wri9a - Sign In";
+  },[]);
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
