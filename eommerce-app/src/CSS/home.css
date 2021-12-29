@@ -15,13 +15,11 @@
 }
 
 .home Button {
-    margin: 1rem;
     background-color: var(--primary);
     color: #181818;
 }
 
 .home Button:hover {
-    margin: 1rem;
     background-color: #181818;
     color: var(--primary);
 }
